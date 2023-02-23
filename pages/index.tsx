@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Zachary's Portfolio</title>
+        <title>Beyond the Box Education</title>
       </Head>
       
       {/* { Header } */}
