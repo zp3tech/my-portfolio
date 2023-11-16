@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 type Props = {}
 
+//TODO: make opaque banner behind social icons so it doesn't look weird passsing over all the content as you scroll down site.
 function Header({ }: Props) {
   return (
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-99 xl:items-center'>

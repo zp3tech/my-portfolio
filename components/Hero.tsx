@@ -20,7 +20,7 @@ function Hero({ }: Props) {
   return (
     <div className='h-screen flex flex-col space-y-4 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
-      <Image src="logo.svg" height={250} width={250} alt={'Beyond the Box logo'} priority={true} />
+      <Image src="/logo.svg" height={250} width={250} alt={'Beyond the Box logo'} priority={true} />
 
       <div className='z-20'>
         <h2 className="text-sm uppercase text-white pb-6 tracking-[10px]">Morgan Bettis-Pahl</h2>
